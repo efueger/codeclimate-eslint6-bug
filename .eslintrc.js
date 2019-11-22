@@ -12,7 +12,7 @@ module.exports = {
     {
       files: ["*.ts"],
       extends: [
-        "eslint:recommended"",
+        "eslint:recommended",
       ],
       rules: {
         "global-require": "off"
