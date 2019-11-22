@@ -11,12 +11,18 @@ module.exports = {
   overrides: [
     {
       files: ["*.ts"],
-      extends: [
-        "plugin:@typescript-eslint/recommended",
-      ],
+//       extends: [
+//         "plugin:@typescript-eslint/recommended",
+//       ],
       rules: {
         "global-require": "off"
       }
     }
   ]
+}
+
+
+{
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"]
 }
