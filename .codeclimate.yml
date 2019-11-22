@@ -9,7 +9,7 @@ plugins:
     channel: "eslint-6"
     config:
       # this config fails to load rules
-      config: ".eslintrc.js"
+      config: ".eslintrc"
       # this config properly loads rules
       # config: ".eslintrc.works.js"
       extensions:
