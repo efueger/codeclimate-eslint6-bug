@@ -12,7 +12,7 @@ module.exports = {
     {
       files: ["*.ts"],
       extends: [
-        "plugin:@typescript-eslint/recommended",
+        "eslint:recommended",
       ],
       rules: {
         "global-require": "off"
@@ -20,3 +20,5 @@ module.exports = {
     }
   ]
 }
+
+
